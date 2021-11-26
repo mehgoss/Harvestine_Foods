@@ -1,0 +1,70 @@
+body::before{
+  display: block;
+  content: '';
+  
+}
+
+.fix{
+  position: fixed;
+}
+.fruits{
+  position: relative;
+}
+.card-img-top{
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+.owl-prev {
+  left: -30px;
+}
+.owl-next {
+  right: -30px;
+}
+
+.owl-prev,.owl-next {
+  position: absolute;
+  top: 90px;
+}
+
+.owl-prev span , .owl-next span{
+  font-size: 80px;
+  color:greenyellow;
+  background: transparent;
+}
+.cardes{
+  height: 360px;
+}
+.leader{
+  height: 250px;
+}
+.heading{
+  font-weight: 900;
+  font-size: 1.8rem;
+  top: 0;
+}
+.icards{
+  height: 250px;
+}
+@media (max-width:390px) {
+  .contact {
+    top: 180px;
+  }
+  .slide2 {
+    bottom: 200px;
+  }
+  .card-img-top {
+    height: 20vh;
+    width: 10vh;
+  }
+  .cardes {
+    height: 240px;
+  }
+  .cardes2 {
+    height: 10px;
+    width: 20px;
+  }
+  .leader{
+    height: 400px;
+  }
+}
